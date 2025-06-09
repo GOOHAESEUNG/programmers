@@ -10,15 +10,11 @@ public class Main {
 
         for(int i = 0; i < 5; i++) {
             Line[i] = br.readLine();
-        }
-
-
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < Line[i].length(); j++) {
+            for(int j = 0; j<Line[i].length(); j++) {
                 arr[i][j] = Line[i].charAt(j);
             }
         }
-
+        
 
         StringBuffer sb = new StringBuffer();
 
